@@ -27,21 +27,31 @@ const Booking = () => {
             <br/>
             
             <br/>
-            <select className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[500px] mb-4">
+            <select className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[500px] mb-4 text-black">
               <option>Pilih Layanan</option>
+              <option>Traditional Massage</option>
+              <option>Facial Massage</option>
+              <option>Tantic Massage</option>
+
             </select>
             
             <br/>
             
             <br/>
-            <select className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[500px] mb-4">
+            <select className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[500px] mb-4 text-black">
               <option>Pilih Durasi</option>
+              <option>60 Menit</option>
+              <option>90 Menit</option>
+              <option>120 Menit</option>
+              <option>150 Menit</option>
             </select>
             <br/>
             
             <br/>
-            <select className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[500px] mb-4">
-              <option>Pilih Opsi</option>
+            <select className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[500px] mb-4 text-black">
+              <option>Pilih Jenis Kelamin</option>
+              <option>Pria</option>
+              <option>Wanita</option>
             </select>
             </div>
 

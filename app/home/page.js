@@ -11,13 +11,13 @@ const Home = () => {
     <div class="container mx-auto px-4 py-8 flex flex-row items-center justify-arround">
         
     <div className='flex flex-col justify-start items-start'>
-    <h1 class="text-4xl font-bold text-left px-4 py-2 rounded-md mx-auto mt-8 block">Welcome To <br/> Reheal Massage</h1>
-    <button class="bg-[#FCC5C0] text-white px-4 py-2 mx-4 rounded-md mt-8 self-start">Booking</button>
+    <h1 class="text-4xl font-bold text-left px-4 py-2 rounded-md mx-auto mt-8 block text-white">Welcome To <br/> Reheal Massage</h1>
+    <button class="bg-[#FCC5C0] text-white px-4 py-2 mx-4 rounded-md mt-8 self-start border-b-2 hover:border-b-2 hover:border-[#F40075]">Booking</button>
     </div>
     
     
     <div class="container mx-auto px-4 py-8 flex">
-    <p class="text-base font-light text-left mt-4">After a busy day at work, if you feel tired, stressed and need a <br/> massage but you don't want to go out from your place.<br/> Have no worries, we will come to you! Just book us</p>
+    <p class="text-base font-light text-left mt-4 text-white">After a busy day at work, if you feel tired, stressed and need a <br/> massage but you don't want to go out from your place.<br/> Have no worries, we will come to you! Just book us</p>
   </div>
   </div>
      </div>
@@ -57,7 +57,7 @@ const Home = () => {
             <h2 className='pt-24 px-2 text-[30px] text-[#FCC5C0]'>About Us</h2>
             <h1 className='pt-4 px-2 text-[30px] font-bold'>REHEAL MASSAGE</h1>
             <p className='pt-4  px-2 text-[15px]'>We have reliable and experienced therapists who are ready to <br/> serve you and provide a comfortable massage.</p>
-            <button className='py-2 px-4 mx-2 mt-10 bg-[#FCC5C0] text-white'>Learn More</button>
+            <button className='py-2 px-4 mx-2 mt-10 bg-[#FCC5C0] text-white border-b-2 hover:border-b-2 hover:border-[#F40075]'>Learn More</button>
         </div>
      </div>
 
@@ -104,7 +104,7 @@ const Home = () => {
          <p className="text-lg text-black text-center mt-2">Reheal Massage is more than just an escape and pleasure. We give a touch through a professional female therapist massage
 that will make you feel tired, lethargic, tired, tired, less enthusiastic and the stress level in your body instantly disappears.</p>
 
-<button className='py-4 px-4 mx-2 mt-3 bg-[#FCC5C0] border hover:border-white'>Book Now</button>
+<button className='py-4 px-4 mx-2 mt-3 bg-[#FCC5C0] border-b-2 hover:border-b-2 hover:border-[#F40075]'>Book Now</button>
        </div>
      </div>
      </div>
@@ -118,30 +118,30 @@ that will make you feel tired, lethargic, tired, tired, less enthusiastic and th
          <div className="mr-20 flex flex-col gap-4">
            <h3 className="font-semibold text-gray-800">Navigation</h3>
            <ul className="flex flex-col text-gray-600 gap-2">
-             <li>Home</li>
-             <li>About</li>
-             <li>Services</li>
-             <li>Gallery</li>
-             <li>Contact Us</li>
+             <a href='/'>Home</a>
+             <a href='/'>About</a>
+             <a href='/'>Services</a>
+             <a href='/'>Gallery</a>
+             <a href='/'>Contact Us</a>
            </ul>
          </div>
          <div className='flex  flex-col gap-4'>
            <h3 className="font-semibold text-gray-800">Contact</h3>
            <div className='flex gap-2 items-center'>
            <img src="/icon-location-footer.svg" alt="Reheal Massage Logo" className="w-4 h-4"/>
-           <p className="text-gray-600">Jakarta</p>
+           <a href='/' className="text-gray-600">Jakarta</a>
            </div>
            <div className='flex gap-2 items-center'>
            <img src="/icon-call-footer.svg" alt="Reheal Massage Logo" className="w-4 h-4"/>
-           <p className="text-gray-600">+628561618089</p>
+           <a href='/' className="text-gray-600">+628561618089</a>
            </div>
            <div className='flex gap-2 items-center'>
            <img src="/icon-email-footer.svg" alt="Reheal Massage Logo" className="w-4 h-4"/>
-           <p className="text-gray-600">info@rehealmassage.com</p>
+           <a href='/' className="text-gray-600">info@rehealmassage.com</a>
            </div>
            <div className='flex gap-2 items-center'>
            <img src="/icon-time-footer.svg" alt="Reheal Massage Logo" className="w-4 h-4"/>
-           <p className="text-gray-600">24/7</p>
+           <a href='/' className="text-gray-600">24/7</a>
            </div>
          </div>
        </div>
