@@ -23,7 +23,7 @@ const Booking = () => {
           <div className=' bg-pink-200 bg-opacity-50 rounded-lg p-3'>
             <label className="text-white text-lg ">Alamat</label>
             <br/>
-            <input type="text" className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[800px] mb-4"/>
+            <input type="text" className="border p-2 rounded bg-pink-200 bg-opacity-20 w-[800px] mb-4 text-black"/>
             <br/>
             
             <br/>
