@@ -83,7 +83,7 @@ const Booking = () => {
         </div>
          <div className="flex justify-end gap-4 p-5">
           <button type="button" className="bg-[#F393DE] text-white py-2 px-14 rounded-lg">RP.0</button>
-          <button type="button" className="bg-[#F393DE] text-white py-2 px-14 rounded-lg">Mememesan</button>
+          <button type="button" className="bg-[#F393DE] text-white py-2 px-14 rounded-lg">Memesan</button>
         </div>
         </div>
 
